@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 html {
-  background: url(assets/2729.jpg);
+  background: url(assets/2729.jpg) center center;
   background-size: cover;
   font-family: 'Space Mono', monospace;
   text-align: center;
   font-size: 10px;
+  border: solid var(--base) var(--spacing);
 }
 :root {
   --base: #ffffff;
-  --spacing: 20px;
+  --spacing: 10px;
   --opacity: 1;
 }
 img {
@@ -16,7 +17,7 @@ img {
   background: var(--base);
   opacity: var(--opacity);
   width: auto;
-  height: 80vh;
+  height: 70vh;
 }
 .hl {
   color: var(--base);
@@ -28,10 +29,13 @@ body {
   font-family: 'Space Mono', monospace;
   font-weight: 100;
   font-size: 30px;
+  border: solid var(--base) var(--spacing);
 }
 .controls {
   margin-bottom: 40px;
+  color: var(--base);
 }
 input {
   width: 100px;
+  color: var(--base);
 }
