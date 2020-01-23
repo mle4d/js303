@@ -9,12 +9,12 @@ html {
 :root {
   --base: #ffffff;
   --spacing: 20px;
-  --blur: 0px;
+  --opacity: 1;
 }
 img {
   padding: var(--spacing);
   background: var(--base);
-  filter: blur(var(--blur));
+  opacity: var(--opacity);
   width: auto;
   height: 80vh;
 }
